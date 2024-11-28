@@ -46,6 +46,7 @@
 
 .navbar>ul>li:hover {
     color: #5a5a5a;
+    cursor: pointer;
 }
 
 /* Icon Menu */
@@ -58,7 +59,11 @@
     position: absolute;
 }
 
-.link {
+.icon_nav_menu:hover {
+    cursor: pointer;
+}
+
+.nav_link {
     text-decoration: none;
     color: inherit;
 }
@@ -81,6 +86,7 @@
 
     .navbar>ul>li:hover {
         color: #5a5a5a;
+        
     }
 
     .icon_nav_menu {

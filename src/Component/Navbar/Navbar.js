@@ -2,6 +2,7 @@
 import { useState } from "react";
 import style from "./Navbar.module.css"
 import 'font-awesome/css/font-awesome.min.css';
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
 
@@ -21,8 +22,12 @@ const Navbar = () => {
 
 
                 <ul className={`${style.nav_list_menu} ${showMenu ? style.show_menu : ''}`}>
-                    <li>Home</li>
-                    <li>Visi & Misi</li>
+                    <li>
+                        <Link to="/" className={style.nav_link}>Home</Link>
+                    </li>
+                    <li>
+                        <Link to="/Profile" className={style.nav_link}>Visi & Misi</Link>
+                    </li>
                     <li>Program</li>
                     <li>Gallery</li>
                 </ul>
