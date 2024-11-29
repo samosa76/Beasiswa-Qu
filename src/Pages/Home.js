@@ -1,4 +1,5 @@
 import Banner from "../Component/Banner/Banner";
+import Info from "../Component/Info/Info";
 import Program from "../Component/Program/Program";
 import "./universal.module.css"
 
@@ -7,6 +8,7 @@ const Home = () => {
         <div>
             <Banner />
             <Program />
+            <Info />
         </div>
     );
 }
