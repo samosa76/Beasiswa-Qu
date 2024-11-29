@@ -1,0 +1,26 @@
+.container {
+    padding: 1rem;
+}
+
+.program_title {
+    text-align: center;
+}
+
+.program_content {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.content_programs {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+
+.program_item {
+    padding: 8px;
+    
+    border-radius: 8px;
+}

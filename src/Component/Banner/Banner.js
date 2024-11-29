@@ -7,7 +7,7 @@ const Banner = () => {
                 <h1>Banner Info</h1>
             </div>
             <div className={style.banner_background}>
-                <img src='https://picsum.photos/id/36/2000/480' className={style.image_banner} />
+                <img src='https://picsum.photos/id/36/2000/480' className={style.image_banner} alt='banner-image'/>
             </div>
         </div>
     )
