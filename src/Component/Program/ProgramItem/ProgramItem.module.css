@@ -1,0 +1,22 @@
+.program_item {
+    background-color: beige;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.desc_item {
+    width: 400px;
+    padding-top: 8px;
+}
+
+
+.card {
+    text-align: center;
+    align-content: center;
+    background-color: #F8F7FF;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
