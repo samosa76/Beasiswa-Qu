@@ -1,0 +1,11 @@
+.gallery_image {
+    text-decoration: none;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 16px;
+    -ms-overflow-style: none;
+}
+
+.gallery_image>img {
+    padding: 8px;
+}
