@@ -33,3 +33,21 @@
     height: 200px;
     width: 90%;
 }
+
+@media (max-width: 1200px) {
+    .wave_div > img {
+        width: 90%;
+        height: 90%;
+    }
+
+    .vimi_content {
+        height: 200px;
+        width: 80%;
+    }
+}
+
+@media (max-width: 992px) {
+    .vimi_container {
+        flex-direction: column;
+    }
+}

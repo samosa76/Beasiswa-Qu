@@ -3,9 +3,7 @@ import style from './Info.module.css'
 const Info = () => {
     return (
         <div className={style.container_info}>
-            <div className={style.info_title}>
-                <h1>Visi & Misi</h1>
-            </div>
+            
             <div className={style.vimi_container}>
                 <div className={style.wave_div}>
 
