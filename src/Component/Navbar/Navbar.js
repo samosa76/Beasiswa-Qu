@@ -17,7 +17,8 @@ const Navbar = () => {
             <nav className={style.navbar}>
 
                 <div className={style.nav_logo}>
-                    <h1>Navbar</h1>
+                    <img src="Asset/icon/icon_logo.png"/>
+                    <div className={style.overlay}></div>
                 </div>
 
 

@@ -1,6 +1,6 @@
 .container {
     color: white;
-    background-color: #9381FF;
+    background-color: rgb(0, 80, 255, 0.7);
     padding: 1rem;
 }
 
@@ -11,27 +11,15 @@
 }
 
 .nav_logo {
-    font-size: 2.4rem;
-    margin-bottom: 1rem;
-    display: inline-block;
+    position: relative;
 }
 
-.logo_1 {
-    background-color: white;
-    display: inline-block;
-    color: #013159;
-    padding-left: 8px;
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
-}
-
-.logo_2 {
-    background-color: white;
-    display: inline-block;
-    color: #008ED6;
-    padding-right: 8px;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
 }
 
 .nav_list_menu {
