@@ -1,6 +1,6 @@
 .container {
     padding: 1rem;
-    
+
 }
 
 .program_title {
@@ -8,13 +8,42 @@
     padding-bottom: 16px;
 }
 
+.program_image{
+    position: relative;
+}
+
+.program_image::after {
+    content: "";
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: -20px;
+    left: -20px;
+    width: 95%;
+    height: 95%;
+    background-color: #FEEED3;
+}
+
+.program_image::before {
+    content: "";
+    content: "";
+    position: absolute;
+    z-index: -1;
+    bottom: -20px;
+    right: -20px;
+    width: 95%;
+    height: 95%;
+    background-color: #EDB079;
+}
+
 .program_content {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding-top: 5rem;
 }
 
-.content_programs {
+.programs {
     justify-content: space-around;
     display: flex;
     flex-direction: column;

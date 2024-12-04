@@ -96,4 +96,8 @@
         align-items: end;
         list-style-type: none;
     }
+    .nav_logo > img{
+        width: 200px;
+        padding-top: 10px;
+    }
 }
