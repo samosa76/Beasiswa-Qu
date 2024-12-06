@@ -6,7 +6,8 @@ const Plan = () => {
             <div className={style.overlay}></div>
 
             <div className={`${style.plan_title} ${style.glass_card}`}>
-                <h1>Renaca Anggaran</h1>
+                <h1>Renaca Anggaran Biaya</h1>
+                <h2>(Beasiswa)</h2>
             </div>
             
             <div className={`${style.plan_table} ${style.forward_index}`}>

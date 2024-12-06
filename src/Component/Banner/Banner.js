@@ -9,7 +9,7 @@ const Banner = () => {
 
                         <h2>BeasiswaQu</h2>
 
-                        <p>Lorem Ipsum hanyalah contoh teks dalam industri percetakan dan penataan huruf.Lorem Ipsum telah menjadi contoh teks standar industri sejak tahun 1500-an,ketika seorang pencetak yang tidak dikenal mengambil kumpulan huruf dan mengacaknya untuk dijadikan buku contoh huruf. Ia tidak hanya bertahan selama lima abad,</p>
+                        <p>BeasiswaQu hadir untuk memberikan kessempatan kepada putra-putri terbaik bangsa untuk mengenyam pendididkan dan mendapatkan kesempatan memperoleh pendidikan, karena pendidikan adalah hak warga negara sebagaimana tercantum dalam konstitusi negara Pasal 31 UUD 1945, Pasal 31 Ayat 1 : Setiap warga negara berhak mendapatkan pendidikan.</p>
 
                         <button className={style.btn_donate}>
                             <p><b>Ayo Berdonasi</b></p>

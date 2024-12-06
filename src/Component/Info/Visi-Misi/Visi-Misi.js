@@ -10,7 +10,7 @@ const ViMi = () => {
                 <div className={style.overlay}>
                     <h2>Visi</h2>
                     <div className={style.vimi_content}>
-                        <p>Lorem ipsum sit amet dolor que paso nique bulores dor miques dot nilas meetim Lorem ipsum sit amet dolor que paso nique bulores dor miques dot nilas meetim Lorem ipsum sit amet dolor que paso nique bulores dor miques dot nilas meetimLorem ipsum sit amet dolor que paso nique bulores dor miques dot nilas meetim Lorem ipsum sit amet dolor que paso nique bulores dor miques dot nilas meetim</p>
+                        <h3>Indonesia Cerdas dan kompetitif 2045</h3>
                     </div>
                 </div>
 
@@ -22,7 +22,9 @@ const ViMi = () => {
                 <div className={style.overlay}>
                     <h2>Misi</h2>
                     <div className={style.vimi_content}>
-                        <p>Lorem ipsum sit amet dolor que paso nique bulores dor miques dot nilas meetim Lorem ipsum sit amet dolor que paso nique bulores dor miques dot nilas meetim Lorem ipsum sit amet dolor que paso nique bulores dor miques dot nilas meetimLorem ipsum sit amet dolor que paso nique bulores dor miques dot nilas meetim Lorem ipsum sit amet dolor que paso nique bulores dor miques dot nilas meetim</p>
+                        <h3>1. Beasiswa pendidikan Indonesia cerdas</h3>
+                        <h3>2. Pendididkan dan pelatihan life skill</h3>
+                        <h3>3. Seminar pendidikan nasional dan internasional</h3>
                     </div>
                 </div>
 

@@ -8,7 +8,7 @@
     padding-bottom: 16px;
 }
 
-.program_image{
+.program_image {
     position: relative;
 }
 
@@ -47,4 +47,34 @@
     justify-content: space-around;
     display: flex;
     flex-direction: column;
+}
+
+@media (max-width: 1400px) {
+    .program_content {
+        flex-direction: column;
+    }
+
+    .programs {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin: 32px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .program_content {
+        justify-content: space-around;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .programs {
+        justify-content: space-around;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .program_image {
+        margin-bottom: 32px;
+    }
 }

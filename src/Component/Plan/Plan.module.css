@@ -1,14 +1,38 @@
 .plan_container {
     display: grid;
-    grid-template-columns: 25% 75%;
+    grid-template-columns: 30% 70%;
     align-items: center;
     background-image: url('/public/Asset/background/plan_bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    
 }
 
+.plan_container::after{
+    content: "";
+    position: absolute;
+    background-color: #FEEED3;
+    width: 95%;
+    height: 100px;
+    top: -40px;
+    left: 0;
+    z-index: -1;
+}
+
+.plan_container::before {
+    content: "";
+    position: absolute;
+    background-color: #EDB079;
+    width: 95%;
+    height: 100px;
+    bottom: -40px;
+    right: 0;
+    z-index: -1;
+}
 
 
 .overlay {
@@ -28,12 +52,18 @@
 .glass_card {
     /* Glass Card */    
     padding: 16px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(2243, 127, 22, 0.5);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.plan_title {
+    color: white;
+    margin: 32px;
+    padding: 32px;
 }
 
 .forward_index {
