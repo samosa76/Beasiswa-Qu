@@ -1,7 +1,9 @@
 import style from "./Program.module.css"
 import ProgramItem from "./ProgramItem/ProgramItem";
+import data from '../../utils/data_program'
 
 const Program = () => {
+    const programs = data;
     return (
         <div className={`${style.container}`}>
             <div className={style.program_content}>
@@ -9,10 +11,9 @@ const Program = () => {
                     <img src="asset/background/program_image.png" alt="program-image" />
                 </div>
                 <div className={style.programs}>
-                    <ProgramItem title="Beasiswa Al-Qur'an"/>
-                    <ProgramItem title="Beasiswa Kader Bangsa"/>
-                    <ProgramItem title="Beasiswa Prestasi"/>
-                    <ProgramItem title="Beasiswa Dhuafa"/>
+                    {programs.map((program) => {
+                        return <ProgramItem programs={program}/>
+                    })}
                 </div>
             </div>
         </div>

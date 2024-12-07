@@ -16,7 +16,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    color: white;
+    color: black;
      
     z-index: 1;
     display: flex;
@@ -37,8 +37,12 @@
     text-align: left;
 }
 
-.vimi_content > h3 {
-    text-shadow: 1px 1px #000;
+.vimi_content > h2 {
+    -webkit-text-stroke: 0.8px #fff;
+}
+
+.overlay > h2 {
+    -webkit-text-stroke: 0.2px #fff;
 }
 
 @media (max-width: 1200px) {

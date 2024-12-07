@@ -1,17 +1,18 @@
 import style from './Item.module.css'
 
-const ItemContent = () => {
+const ItemContent = (props) => {
+    const {content} = props;
     return (
         <div className={style.container_item}>
             <div className={style.item_icon}>
-                <img src='Asset/icon/info_icon_1.png' alt='icon-item'/>
+                <img src={`Asset/image/${content.img}`} alt='icon-item'/>
                 <div className={style.overlay}></div>
             </div>
             <div className={style.item_title}>
-                <h4>BeasiswaQu</h4>
+                <h4>{content.title}</h4>
             </div>
             <div className={style.item_desc}>
-                <p>img elements must have an alt prop, either with meaningful text</p>
+                <p>{content.desc}</p>
             </div>
         </div>
     )
