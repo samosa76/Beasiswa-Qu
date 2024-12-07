@@ -65,10 +65,11 @@
 
     .nav_list_menu {
         flex-direction: row;
+        margin-right: 5rem;
     }
 
     .navbar>ul>li {
-        margin-right: 20px;
+        margin: 32px;
         float: left;
     }
 
@@ -79,6 +80,9 @@
 
     .icon_nav_menu {
         display: none;
+    }
+    .nav_link > p{
+        font-size: 16pt;
     }
 }
 
