@@ -6,7 +6,7 @@ const Info = () => {
     return (
         <div className={style.container_info}>
 
-            <h1>Program Kami</h1>
+            <p>Program Kami</p>
 
             <ViMi />
             <InfoContent />

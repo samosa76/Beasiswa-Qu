@@ -2,3 +2,8 @@
     padding: 1rem;
     text-align: center;
 }
+
+.container_info > p {
+    font-size: 32pt;
+    font-weight: 700;
+}

@@ -1,7 +1,9 @@
+import NewsContent from "../Component/News/NewsContent";
+
 const News = () => {
     return (
         <div>
-            <h1>News</h1>
+            <NewsContent />
         </div>
     )
 }
