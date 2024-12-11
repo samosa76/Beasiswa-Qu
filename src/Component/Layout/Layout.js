@@ -1,17 +1,19 @@
+import { useRef } from "react";
 import Banner from "../Banner/Banner";
 import Donate from "../Donate/Donate";
 import Footer from "../Footer/Footer"
 import Navbar from "../Navbar/Navbar"
 
 const Layout = ({ children }) => {
+    const ref = useRef(null);
     return (
         <div>
             <Navbar />
-            <Banner />
+            <Banner refToComponent={ref} />
             <main>
                 {children}
             </main>
-            <Donate />
+            <Donate ref={ref}/>
             <Footer />
         </div>
     )

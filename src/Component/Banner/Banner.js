@@ -1,6 +1,14 @@
 import style from './Banner.module.css'
 
-const Banner = () => {
+function Banner({refToComponent}) {
+
+    
+    const scrollToContent = () => {
+        if (refToComponent.current) {
+            refToComponent.current.scrollIntoView();
+        }
+    }
+
     return (
         <div>
             <div className={style.container}>
@@ -11,7 +19,7 @@ const Banner = () => {
 
                         <p>BeasiswaQu hadir untuk memberikan kessempatan kepada putra-putri terbaik bangsa untuk mengenyam pendididkan dan mendapatkan kesempatan memperoleh pendidikan, karena pendidikan adalah hak warga negara sebagaimana tercantum dalam konstitusi negara Pasal 31 UUD 1945, Pasal 31 Ayat 1 : Setiap warga negara berhak mendapatkan pendidikan.</p>
 
-                        <button className={style.btn_donate}>
+                        <button className={style.btn_donate} onClick={scrollToContent}>
                             <p><b>Ayo Berdonasi</b></p>
                         </button>
                         
