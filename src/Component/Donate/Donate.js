@@ -32,7 +32,7 @@ const Donate = forwardRef((props, ref) => {
 
                         <div className={style.rek_number}>
                             <h3>Nomor rekening :</h3>
-                            <h2>02383470025774029</h2>
+                            <h2>1000316783</h2>
                         </div>
 
                         <div className={style.rek_name}>

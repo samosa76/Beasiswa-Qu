@@ -22,3 +22,10 @@
     text-decoration: none;
     color: inherit;
 }
+
+@media (max-width: 992px) {
+    .news_items {
+        display: flex;
+        flex-direction: column;
+    }
+}
