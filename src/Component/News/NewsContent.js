@@ -9,7 +9,7 @@ const NewsContent = () => {
                 <p>Berita Terbaru</p>
             </div>
             <div className={style.news_items}>
-                <Link to="/News/Detail" className={style.non_link_text}>
+                <Link to="/Detail" className={style.non_link_text}>
                     <NewsItem />
                 </Link>
                 <NewsItem />
