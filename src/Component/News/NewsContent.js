@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import style from './NewsContent.module.css'
 import NewsItem from './NewsItem/NewsItem';
 
@@ -8,7 +9,9 @@ const NewsContent = () => {
                 <p>Berita Terbaru</p>
             </div>
             <div className={style.news_items}>
-                <NewsItem />
+                <Link to="/News/Detail" className={style.non_link_text}>
+                    <NewsItem />
+                </Link>
                 <NewsItem />
             </div>
         </div>
