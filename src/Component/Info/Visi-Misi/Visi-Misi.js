@@ -9,7 +9,7 @@ const ViMi = () => {
 
                 <div className={style.overlay}>
                     <h2>Visi</h2>
-                    <div className={style.vimi_content}>
+                    <div className={`${style.vimi_content} ${style.visi}`}>
                         <h2>Indonesia Cerdas dan kompetitif 2045</h2>
                     </div>
                 </div>

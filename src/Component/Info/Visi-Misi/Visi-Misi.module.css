@@ -44,6 +44,9 @@
 .overlay > h2 {
     -webkit-text-stroke: 0.2px #fff;
 }
+.visi {
+    align-items: center;
+}
 
 @media (max-width: 1200px) {
     .wave_div > img {
@@ -54,8 +57,13 @@
     .vimi_content {
         height: 200px;
         width: 80%;
-        align-items: center;
+        
     }
+    .vimi_content > h2 {
+        -webkit-text-stroke: 0.8px #fff;
+        font-size: 16pt;
+    }
+    
 }
 
 @media (max-width: 992px) {
@@ -64,5 +72,27 @@
     }
     .vimi_content {
         align-items: center;
+    }
+    .vimi_content > h2 {
+        font-size: 18pt;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .vimi_content {
+        align-items: start;
+    }
+    .visi {
+        align-items: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .vimi_content > h2 {
+        font-size: 15pt;
+    }
+    .vimi_content > h2 {
+        -webkit-text-stroke: 0.5px #fff;
     }
 }

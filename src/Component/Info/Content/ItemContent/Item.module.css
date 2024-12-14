@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
     margin-top: 16px;
     margin-bottom: 16px;
 }
@@ -20,4 +21,43 @@
 
 .item_desc {
     width: 300px;
+}
+
+@media (max-width: 992px) {
+    
+
+    .item_desc {
+        width: 330px;
+    }
+    .container_item:last-child {
+        grid-column: span 2;
+    }
+    .container_item {
+        height: 300px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .item_desc > p {
+        font-size: small;
+    }
+    .container_item {
+        height: 260px;
+    }
+
+    .item_desc {
+        width: 200px;
+    }
+}
+
+@media (max-width: 576px) {
+    
+    .container_item {
+        height: 300px;
+    }
+
+    .item_desc {
+        width: 220px;
+    }
 }
