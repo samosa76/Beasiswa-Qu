@@ -1,6 +1,5 @@
 .container {
     padding: 1rem;
-
 }
 
 .program_title {
@@ -10,6 +9,11 @@
 
 .program_image {
     position: relative;
+    padding: 16px;
+}
+
+.program_image > img{
+    width: 100%;
 }
 
 .program_image::after {
@@ -34,6 +38,7 @@
     width: 95%;
     height: 95%;
     background-color: #EDB079;
+    
 }
 
 .program_content {
@@ -76,5 +81,17 @@
 
     .program_image {
         margin-bottom: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    .program_image::after {
+        top: 0px;
+        left: 0px;
+    }
+    
+    .program_image::before {
+        bottom: 0px;
+        right: 0px;
     }
 }
