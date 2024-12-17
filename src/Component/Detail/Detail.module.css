@@ -116,3 +116,19 @@
         font-size: 16pt;
     }
 }
+
+@media (max-width: 500px) {
+    .detail_desc {
+        width: 350px;
+        font-size: 16pt;
+    }
+    .detail_image::after {
+        top: -20px;
+        left: -20px;
+    }
+    
+    .detail_image::before {
+        bottom: -20px;
+        right: -20px;
+    }
+}

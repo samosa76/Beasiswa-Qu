@@ -81,3 +81,14 @@
         width: 400px;
     }
 }
+
+@media (max-width: 500px) {
+    .item_image>img {
+        height: 350px;
+        width: 350px;
+    }
+
+    .item_desc > p {
+        width: 300px;
+    }
+}
