@@ -33,11 +33,6 @@ const Navbar = () => {
                             <p>News</p>
                         </Link>
                     </li>
-                    <li>
-                        <Link to="/Gallery" className={style.nav_link}>
-                            <p>Gallery</p>
-                        </Link>
-                    </li>
                 </ul>
 
                 <div className={style.icon_nav_menu}>

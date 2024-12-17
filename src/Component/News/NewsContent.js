@@ -12,7 +12,7 @@ const NewsContent = () => {
                 <Link to="/Detail" className={style.non_link_text}>
                     <NewsItem />
                 </Link>
-                <NewsItem />
+                {/* <NewsItem /> */}
             </div>
         </div>
     )

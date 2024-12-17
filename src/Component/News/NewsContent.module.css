@@ -15,7 +15,8 @@
 .news_items {
     padding-top: 2rem;
     display: grid;
-    grid-template-columns: 50% 50%;
+    /* grid-template-columns: 50% 50%; */
+    grid-template-columns: 100%;
 }
 
 .non_link_text {

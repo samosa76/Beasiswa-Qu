@@ -70,4 +70,7 @@
     .rek_name {
         padding-top: 16px;
     }
+    .img_overlay > img {
+        width: 80%;
+    }
 }
