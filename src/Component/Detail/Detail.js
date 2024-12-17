@@ -5,7 +5,7 @@ const Detail = () => {
     const handleClick = () => {
         window.location.href="https://bit.ly/PendaftaranBeasiswaQU"
     }
-    
+
     return (
         <div className={style.container}>
             <div className={style.container_detail}>
@@ -13,7 +13,7 @@ const Detail = () => {
                     <p>Detail Pages</p>
                 </div>
                 <div className={`${style.detail_image} ${style.card}`}>
-                    <img src='asset/image/program_beasiswa_yatim_piatu.jpg' alt='poster-program-beasiswa' />
+                    <img src='Asset/image/program_beasiswa_yatim_piatu.jpg' alt='poster-program-beasiswa' />
                     <div className={style.overlay}></div>
                 </div>
                 <div className={style.detail_desc}>

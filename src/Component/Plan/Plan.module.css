@@ -91,7 +91,7 @@
 }
 
 .img_card > img {
-    width: 800px;
+    width: 100%;
 }
 
 .overlay_img {
@@ -120,13 +120,19 @@
 }
 
 @media (max-width: 768px) {
-    .img_card > img {
-        width: 600px;
-    }   
+    .plan_title {
+        h1 {
+            font-size: 18pt;
+        }
+        h2 {
+            font-size: 17pt;
+        }
+    }
 }
 
-@media (max-width: 576px) {
-    .img_card > img {
-        width: 420px;
+@media (max-width: 500px) {
+    .img_card {
+        padding: 16px;
     }
+    
 }

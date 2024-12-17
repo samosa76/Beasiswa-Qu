@@ -14,3 +14,10 @@
         grid-template-columns: 50% 50%;
     }
 }
+
+@media (max-width: 552px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+}

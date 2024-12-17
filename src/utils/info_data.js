@@ -21,7 +21,7 @@ const info_data = [
         id : "4",
         title : "Mencerdaskan Bangsa",
         desc : "Mencerdaskan kehidupan bangsa Indonesia dengan memberikan beasiswa",
-        img : 'Mencerdaskan-bangsa.png'
+        img : 'Mencerdaskan-Bangsa.png'
     },
     {
         id : "5",

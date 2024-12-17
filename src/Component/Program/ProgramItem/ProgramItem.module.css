@@ -60,16 +60,20 @@
     border-radius: 80px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 500px) {
+    .item_title {
+        margin-left: -10%;
+    }
     .desc_item {
-        width: 350px;
+        width: 270px;
         height: 100px;
     }
     .item_title {
-        width: 350px;
+        width: 270px;
     }
-    
 }
+
+
 
 @media (max-width: 1400px){
     .title_container {
