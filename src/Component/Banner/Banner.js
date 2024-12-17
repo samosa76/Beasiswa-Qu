@@ -26,7 +26,7 @@ function Banner({refToComponent}) {
                     </div>
 
                     <div className={style.banner_logo}>
-                        <img src='asset/icon/banner-logo.png' alt='logo-with-yellow-bg'/>
+                        <img src='Asset/icon/banner-logo.png' alt='logo-with-yellow-bg'/>
                     </div>
                 </div>
             </div>

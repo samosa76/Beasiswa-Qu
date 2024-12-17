@@ -5,7 +5,7 @@ const NewsItem = () => {
         <div className={`${style.item_container}`}>
             <div className={style.card_item}>
                 <div className={style.item_image}>
-                    <img src='asset/image/program_beasiswa_yatim_piatu.jpg' alt='poster-program-beasiswa' />
+                    <img src='Asset/image/program_beasiswa_yatim_piatu.jpg' alt='poster-program-beasiswa' />
                 </div>
                 <div className={style.item_title}>
                     <h2>Beasiswa Yatim dan Piatu</h2>

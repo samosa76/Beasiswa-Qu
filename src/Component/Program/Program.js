@@ -8,7 +8,7 @@ const Program = () => {
         <div className={`${style.container}`}>
             <div className={style.program_content}>
                 <div className={style.program_image}>
-                    <img src="asset/background/program_image.png" alt="program-image" />
+                    <img src="Asset/background/program_image.png" alt="program-image" />
                 </div>
                 <div className={style.programs}>
                     {programs.map((program) => {

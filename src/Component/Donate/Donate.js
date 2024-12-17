@@ -21,7 +21,7 @@ const Donate = forwardRef((props, ref) => {
                 <div className={style.content_donate}>
 
                     <div className={style.img_overlay}>
-                        <img src="asset/image/Bank_logo.png" alt="logo-bank-mega-syariah" />
+                        <img src="Asset/image/Bank_logo.png" alt="logo-bank-mega-syariah" />
                         <div className={style.overlay}></div>
                     </div>
 

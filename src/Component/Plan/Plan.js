@@ -17,7 +17,7 @@ const Plan = () => {
                 <div className={`${style.img_card} ${style.card}`}>
 
                     <div className={style.overlay_img}></div>
-                    <img src="asset/background/anggaran_biaya.png" alt="anggaran-biaya-table"/>
+                    <img src="Asset/background/anggaran_biaya.png" alt="anggaran-biaya-table"/>
 
                 </div>
 

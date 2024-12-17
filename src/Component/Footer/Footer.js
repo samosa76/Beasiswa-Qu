@@ -30,9 +30,9 @@ const Footer = () => {
             </div>
 
             <div className={style.contact_us_sosmed}>
-                <img src="asset/icon/icon_ig.png" alt="icon-instagram"/>
-                <img src="asset/icon/icon_fb.png" alt="icon-facbook"/>
-                <img src="asset/icon/icon_tiktok.png" alt="icon-facebook"/>
+                <img src="Asset/icon/icon_ig.png" alt="icon-instagram"/>
+                <img src="Asset/icon/icon_fb.png" alt="icon-facbook"/>
+                <img src="Asset/icon/icon_tiktok.png" alt="icon-facebook"/>
             </div>
         </div>
     );
