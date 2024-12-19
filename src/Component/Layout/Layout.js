@@ -7,7 +7,7 @@ import Navbar from "../Navbar/Navbar"
 const Layout = ({ children }) => {
     const ref = useRef(null);
     return (
-        <div>
+        <div style={{overflowX:'hidden'}}>
             <Navbar />
             <Banner refToComponent={ref} />
             <main>

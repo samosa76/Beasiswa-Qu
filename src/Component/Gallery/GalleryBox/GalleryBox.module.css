@@ -1,4 +1,5 @@
 .gallery_image {
+    scrollbar-width: none;
     text-decoration: none;
     overflow: auto;
     white-space: nowrap;

@@ -2,7 +2,7 @@ const info_data = [
     {
         id : "1",
         title : "BeasiswaQu",
-        desc : "Berada di bawah Yayasan Masyarakat Islam Indonesia (MII)",
+        desc : "Berada di bawah Yayasan Beasiswa Quran Indonesia",
         img : 'BeasiswaQu.png'
     },
     {
