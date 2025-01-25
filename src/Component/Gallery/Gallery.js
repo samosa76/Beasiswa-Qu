@@ -5,7 +5,7 @@ const Gallery = () => {
     return (
         <div className={style.container}>
             <div className={style.gallery_title}>
-                <h1>Gallery</h1>
+                <h1>Penerima Beasiswa</h1>
             </div>
 
             <GalleryBox />

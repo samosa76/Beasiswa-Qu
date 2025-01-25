@@ -1,0 +1,12 @@
+.container {
+    margin-top: 24px;
+}
+.imagebox_container {
+    display: flex;
+}
+
+.horizontal_scroll_view {
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
