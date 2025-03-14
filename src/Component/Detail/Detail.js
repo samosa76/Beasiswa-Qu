@@ -17,7 +17,7 @@ const Detail = () => {
                     <p>Detail Pages</p>
                 </div>
                 <div className={`${style.detail_image} ${style.card}`}>
-                    <img src='Asset/image/program_beasiswa_yatim_piatu.jpg' alt='poster-program-beasiswa' />
+                    <img src='Asset/image/news/program_beasiswa_yatim_piatu.jpg' alt='poster-program-beasiswa' />
                     <div className={style.overlay}></div>
                 </div>
                 

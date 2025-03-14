@@ -7,6 +7,7 @@ import News from './Pages/News';
 import NewsDetail from './Pages/NewsDetail';
 import Programs from './Pages/Programs';
 import Profile from './Pages/Profile';
+import Bukber from './Component/Detail/Bukber/Bukber';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path='/Program' element={<Programs />}></Route>
           <Route path='/Profile' element={<Profile />}></Route>
           <Route path='/Detail' element={<NewsDetail />}></Route>
+          <Route path='/Bukber' element={<Bukber />}></Route>
         </Routes>
       </Layout>
     </div>
