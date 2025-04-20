@@ -15,6 +15,9 @@ const NewsContent = () => {
                 <Link to="/Bukber" className={style.non_link_text}>
                     <NewsItem newsImage="santries.jpg" newsTitle="Buka Bersama Santri" newsDesc="BeasiswaQu menyalurkan buka puasa untuk Pondok Pesantren IT Multimedia Al Fatih dan Pondok Pesantren Tahfidzul Qur'an al Wahyu"/>
                 </Link>
+                <Link to="/Palestine" className={style.non_link_text}>
+                    <NewsItem newsImage="palestine.jpg" newsTitle="Bersama Palestina" newsDesc="Donasi untuk rakyat Palestina melalui Syaikh Rayyan Abdullah, perwakilan dari organisasi kemanusiaan Friend of Palestina."/>
+                </Link>
                 {/* <NewsItem /> */}
             </div>
         </div>
